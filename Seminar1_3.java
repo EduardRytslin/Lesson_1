@@ -25,6 +25,5 @@ public static void main(String[] args) {
     else {
         System.out.printf("Сумма элементов %d", result);
     }
-
-}
+  }
 }
