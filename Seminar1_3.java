@@ -26,4 +26,17 @@ public static void main(String[] args) {
         System.out.printf("Сумма элементов %d", result);
     }
   }
+
+public static int sumElements (int()() matrix){
+int n = matrix.length;
+for (int[] row: matrix){
+    if (row.length != n){
+        return -1;
+        }
+    }
+for (int[] row: matrix){
+    for (int element: row){
+        if (element != 0 && element != 1){
+            return -2;
+            }
 }
