@@ -14,7 +14,7 @@
 public class Seminar1_3 {
 
 public static void main(String[] args) {
-    int[][] matrix = {{1,0,1), (1,1,1},{0,0}};
+    int[][] matrix = {{1,0,1},{1,1,1},{0,0}};
     int result = sumElements(matrix);
     if (result == -1){
         System.out.println("Количество строк не равно количеству столбцов!");
